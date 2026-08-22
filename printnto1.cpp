@@ -1,4 +1,4 @@
-// print numbers from 1 to n
+// print numbers from n to 1
 
 #include<iostream>
 using namespace std;
@@ -8,9 +8,8 @@ int main(){
   cout<<"Enter a number: ";
   cin>> num;
 
-  for (int i = 1; i<= num; i++){
+  for (int i = num; i>= 1; i--){
     cout<<i<< endl;
   }
-  
-  return 0;
+ return 0;
 }
