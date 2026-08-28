@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 
   string a;
-  cout<< "enter a srting: ";
+  cout<< "enter a string: ";
   cin>> a;
 
   string reverse = "";

@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 
   string x;
-  cout<< "enter a srting: ";
+  cout<< "enter a string: ";
   cin>> x;
 
   int  count = 0;
